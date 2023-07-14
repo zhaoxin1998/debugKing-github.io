@@ -20,7 +20,7 @@ export default hopeTheme({
 
   repo: "https://zhaoxin1998.github.io/debugKing-github.io/",// github地址
 
-  docsDir: "docs",
+  docsDir: "/",
 
   blog: { // 主题中日志模式配置
     name: 'DebugKing', // 博主姓名
