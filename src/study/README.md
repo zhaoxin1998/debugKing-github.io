@@ -1,0 +1,174 @@
+# 技术栈
+
+实话实说，我不是一个能够静下心来踏踏实实做技术的人，虽然身边不乏有对技术沉迷且执着的人，但我很少能够受他们所影响，唯一庆幸的是，在一位同乡挚友的鞭策下，我才愿意抽出时间和精力，对以往的知识体系进行系统的回顾与记录。
+
+## 知识脑图（转载）
+
+
+
+```mindmap
+root((Java 学习路线))
+  Java
+    基础语法
+    JVM
+    并发/多线程
+  数据结构和算法
+    数据结构
+    算法
+  计算机网络
+  数据库
+    SQL及其优化
+    事务
+    索引
+    锁
+  操作系统
+    进程/线程
+    并发/锁
+    内存管理和调度
+    IO
+  设计模式
+    单例
+    工厂
+    代理
+    策略
+    观察者
+    适配器
+  框架
+    Spring全家桶
+      Spring
+        IOC
+        AOP
+      Spring MVC
+      Spring Boot
+  中间件
+    缓存
+      memcache
+      Redis
+    MQ
+      RocketMQ
+      RabbitMQ
+      Kafka
+    RPC
+      Dubbo
+      GRPC
+      Netty
+    ORM
+      MyBatis
+      JPA
+  搜索引擎
+    ElasticSearch
+    Solr
+  分布式/微服务
+    网关
+    服务发现注册中心
+    服务调用
+    熔断/降级
+    认证/鉴权
+    任务调度
+    链路追踪
+    日志分析
+    容器化
+  运维
+    Web服务器
+      Tomcat
+    应用服务器
+      Nginx
+    持续集成/持续发布
+      Jenkins
+      k8s
+    日志收集
+      ELK
+    代码质量检查
+      sonar
+```
+
+```mindmap
+root((前端开发学习路线))
+  三剑客
+    HTML
+      常用标签
+      常用属性
+      HTML5
+    CSS
+      选择器
+      盒模型
+      定位
+      布局
+      CSS3
+    JavaScript
+      语法基础
+      函数
+      对象
+      BOM
+      DOM
+      网络请求
+      ES6
+  封装/工具库
+    数据可视化
+      Highcharts
+      Echarts
+      AntV
+      D3.js
+    UI框架
+      Bootstrap
+      Layui
+      Semantic UI
+      Foundation
+    编辑器
+      TinyMCE
+      UEditor
+      CKEditor
+      Draft.js
+      Slate.js
+    组件库
+      Element
+      iView
+      antd
+      Material UI
+    动画
+      Animate.css
+      Anime.js
+      mo.js
+    mock数据
+    实用工具库
+      UnderScore
+      Lodash
+      Moment.js
+    字体/图标
+      Font Awesome
+      Iconfont
+  前端工程化
+    Node.js
+    组件化开发
+      Vue
+      React
+      Angular
+    构建工具
+      Grunt
+      Gulp
+    打包工具
+      Webpack
+      Rollup
+      Snowpack
+    校验/格式化/规范化
+      ESlint
+      Prettier
+    测试框架
+      Jest
+      Mocha
+    前端性能
+      性能指标
+      性能测试
+      性能优化方案
+  多端/跨端/融合
+    移动端/小程序
+      React Native
+      Weex
+      Taro
+      uniapp
+      Chameleon
+      Flutter
+    桌面应用
+      Electron
+      NW.js
+```
