@@ -20,7 +20,7 @@ export default hopeTheme({
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",// github地址
 
-  docsDir: "docs",
+  docsDir: "/src",
 
   blog: { // 主题中日志模式配置
     name: 'DebugKing', // 博主姓名
