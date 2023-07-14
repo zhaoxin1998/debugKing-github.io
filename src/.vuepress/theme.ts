@@ -10,8 +10,8 @@ export default hopeTheme({
   
   author: {
     name: "DebugKing",
-    url: "https://github.com/songbaicheng", // 作者网站
-    email: "songbaicheng16@163.com" // 作者 Email
+    url: "https://github.com/zhaoxin1998", // 作者网站
+    email: "1778524294@qq.com" // 作者 Email
   },
 
   iconAssets: "fontawesome",
@@ -20,7 +20,7 @@ export default hopeTheme({
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",// github地址
 
-  docsDir: "src",
+  docsDir: "docs",
 
   blog: { // 主题中日志模式配置
     name: 'DebugKing', // 博主姓名
