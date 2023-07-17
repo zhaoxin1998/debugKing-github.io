@@ -7,7 +7,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+  base: "/debugKing-github.io/",
   title:"DebugKing",
   lang: "zh-CN",
   description: "这是首页",
