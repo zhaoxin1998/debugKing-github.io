@@ -15,62 +15,16 @@ export const studySidebar = arraySidebar([
                 ],
             },
             {
-                text: 'SpringSE',
+                text: 'JavaSE',
                 collapsible: true,
                 children: [
-                    {
-                        text: '异常',
-                        collapsible: true,
-                        children: [
-                            // '/study/backend/java/basic/dynamic-proxy.md',
-                            // '/study/backend/java/basic/concurrency.md',
-                        ],
-                    },
-                    {
-                        text: '枚举',
-                        collapsible: true,
-                        children: [
-                        //     '/study/backend/java/basic/dynamic-proxy.md',
-                        //     '/study/backend/java/basic/concurrency.md',
-                        ],
-                    },
-                    {
-                        text: '数组',
-                        collapsible: true,
-                        children: [
-                            // '/study/backend/java/basic/dynamic-proxy.md',
-                            // '/study/backend/java/basic/concurrency.md',
-                        ],
-                    },
-                    {
-                        text: '集合',
-                        collapsible: true,
-                        children: [
-                            // '/study/backend/java/basic/dynamic-proxy.md',
-                            // '/study/backend/java/basic/concurrency.md',
-                        ],
-                    },
-                    {
-                        text: '注解与反射',
-                        collapsible: true,
-                        children: [
-                            // '/study/backend/java/basic/dynamic-proxy.md',
-                            // '/study/backend/java/basic/concurrency.md',
-                        ],
-                    },
-                    {
-                        text: '正则表达式',
-                        collapsible: true,
-                        children: [
-                            // '/study/backend/java/basic/dynamic-proxy.md',
-                            // '/study/backend/java/basic/concurrency.md',
-                        ],
-                    },
-                    // '/study/backend/java/spring/spring-data-redis.md',
-                    // '/study/backend/java/spring/spring-security.md',
-                    // '/study/backend/java/spring/spring-security-jwt.md',
-                    // '/study/backend/java/spring/spring-security-oauth2.md',
-                    // '/study/backend/java/spring/spring-boot-logging.md',
+                    '/study/java/javaSE/01-异常.md',
+                    '/study/java/javaSE/02-枚举.md',
+                    '/study/java/javaSE/03-数组.md',
+                    '/study/java/javaSE/05-集合.md',
+                    '/study/java/javaSE/10-注解与反射.md',
+                    '/study/java/javaSE/13-正则表达式.md',
+
                 ],
             }
         ]

@@ -1,4 +1,4 @@
 # debugKing-github.io
-修改测试
+基础框架使用了vuepress(https://vuepress.vuejs.org/)
+主题使用了VuePress Theme Hope(https://theme-hope.vuejs.press/zh/0
 
-收拾收拾
