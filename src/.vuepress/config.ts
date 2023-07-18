@@ -5,7 +5,9 @@ import { copyrightPlugin } from "vuepress-plugin-copyright2";
 import { readingTimePlugin } from "vuepress-plugin-reading-time2";
 import { lightgalleryPlugin } from "vuepress-plugin-lightgallery";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { nprogressPlugin } from "@vuepress/plugin-nprogress";
+import pkg from '@vuepress/plugin-nprogress';
+const { nprogressPlugin } = pkg;
+// import { nprogressPlugin } from "@vuepress/plugin-nprogress";
 import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import theme from "./theme.js";
 
