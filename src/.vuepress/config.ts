@@ -6,7 +6,7 @@ import { readingTimePlugin } from "vuepress-plugin-reading-time2";
 import { lightgalleryPlugin } from "vuepress-plugin-lightgallery";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import pkg from '@vuepress/plugin-nprogress';
-const { nprogressPlugin } = pkg;
+// const { nprogressPlugin } = pkg;
 // import { nprogressPlugin } from "@vuepress/plugin-nprogress";
 import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import theme from "./theme.js";
@@ -79,7 +79,7 @@ export default defineUserConfig({
       hotReload: true,
     }),
     //进度条
-    nprogressPlugin(),
+    pkg(),
     //代码高亮
     prismjsPlugin({
       preloadLanguages:['markdown', 'jsdoc', 'yaml']
