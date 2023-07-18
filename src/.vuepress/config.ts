@@ -79,7 +79,7 @@ export default defineUserConfig({
       hotReload: true,
     }),
     //进度条
-    pkg(),
+    pkg,
     //代码高亮
     prismjsPlugin({
       preloadLanguages:['markdown', 'jsdoc', 'yaml']
