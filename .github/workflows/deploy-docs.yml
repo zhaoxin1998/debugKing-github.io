@@ -28,7 +28,9 @@ jobs:
           # 选择要使用的 pnpm 版本
           version: 6
           run_install: true      
-
+          
+      - name: Install vueprass
+        run: pnpm dlx vp-update
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
