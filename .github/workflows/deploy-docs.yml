@@ -29,8 +29,8 @@ jobs:
           version: 6
           run_install: true      
           
-      - name: Install vueprass
-        run: pnpm dlx vp-update
+      - name: Install @vuepress/plugin-nprogress
+        run: pnpm add -D @vuepress/plugin-nprogress
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
