@@ -21,7 +21,11 @@ export const studySidebar = arraySidebar([
                     '/study/java/javaSE/01-异常.md',
                     '/study/java/javaSE/02-枚举.md',
                     '/study/java/javaSE/03-数组.md',
+                    '/study/java/javaSE/04-日期与时间类.md',
                     '/study/java/javaSE/05-集合.md',
+                    '/study/java/javaSE/06-String.md',
+                    '/study/java/javaSE/07-IO流.md',
+                    '/study/java/javaSE/08-多线程.md',
                     '/study/java/javaSE/10-注解与反射.md',
                     '/study/java/javaSE/13-正则表达式.md',
 

@@ -6,8 +6,6 @@ import { readingTimePlugin } from "vuepress-plugin-reading-time2";
 import { lightgalleryPlugin } from "vuepress-plugin-lightgallery";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import pkg from '@vuepress/plugin-nprogress';
-// const { nprogressPlugin } = pkg;
-// import { nprogressPlugin } from "@vuepress/plugin-nprogress";
 import { prismjsPlugin } from "@vuepress/plugin-prismjs";
 import theme from "./theme.js";
 
@@ -34,17 +32,6 @@ export default defineUserConfig({
   ],
   theme,
   plugins: [
-    // docsearchPlugin({
-    //   apiKey: '98eef3cbbc84f0cd80b63f4cb53f9a51',
-    //   indexName: 'songbaichengio',
-    //   appId: 'XLRE2KQH6J',
-    // }),
-    // searchProPlugin({
-    //   // 配置选项
-    //   autoSuggestions: true,
-    //   // 自定义热键
-    //   hotKeys: [{ key: 'k', ctrl: true }],
-    // }),
     //评论
     commentPlugin({
       //选择哪款插件
